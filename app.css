@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  color: black;
+  background-color: aquamarine;
+}
+
+.subhead {
+  text-align: center;
+  color: black;
+  background-color: lavenderblush;
+}
+
+.info {
+  background-color: aquamarine;
+}
+
+.list :nth-of-type(odd) {
+  background-color: lemonchiffon;
+  font-size: 1.em;
+}
+
+.list :nth-of-type(even) {
+  background-color: lemonchiffon;
+  font-size: 1.em;
+}
+
+.div .ul .li:nth-of-type(odd) {
+  background-color: lightblue;
+}
+
+.div .ul .li:nth-of-type(even) {
+  background-color: lightcyan;
+}
+
+.div {
+  color: transparent;
+  width: 1px;
+  transition: width 2s;
+}
+
+.div:hover {
+  color: black;
+  width: 1500px;
+}
+
+#hover {
+  width: 500px;
+  color: black;
+}
